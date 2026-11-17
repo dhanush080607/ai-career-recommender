@@ -1,8 +1,10 @@
+
 import { useEffect, useState } from "react";
 import "./App.css";
-import CareerAssessment from "./CareerAssessment";
-import Auth from "./Auth";
-import Dashboard from "./Dashboard";
+
+import CareerAssessment from "./CareerAssessment.jsx";
+import Auth from "./auth.jsx";
+import Dashboard from "./dashboard.jsx";
 
 const CURRENT_YEAR = new Date().getFullYear();
 const API_URL = "http://127.0.0.1:5000";
