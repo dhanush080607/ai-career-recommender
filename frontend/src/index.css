@@ -1,0 +1,86 @@
+:root {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  color: #eef0f7;
+  background: #08090d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  color-scheme: dark;
+  --surface: #11131a;
+  --surface-raised: #171a23;
+  --surface-hover: #1c202b;
+  --border: #282c38;
+  --text: #eef0f7;
+  --muted: #9298a9;
+  --accent: #9c8cff;
+  --accent-strong: #806bff;
+  --success: #69d6a5;
+  --danger: #ff858d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #08090d;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #aa9dff;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #fff;
+  background: #604ed0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
