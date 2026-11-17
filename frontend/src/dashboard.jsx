@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Dashboard.css";
+import "./dashboard.css";
 
 const API_URL = "http://127.0.0.1:5000";
 
