@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Eye, EyeOff, Mail, Lock, UserRound, GraduationCap } from "lucide-react";
-import "./Auth.css";
+import "./auth.css";
 
 const API_URL = "http://127.0.0.1:5000/api";
 
